@@ -39,20 +39,4 @@ Allow Android Studio to sync all Gradle files and dependencies.
 - Connect an emulator or physical device.
 - Click the green Run button in Android Studio.
 
-##File Structure
 
-SimpleAlarm/
-├── app/
-│   ├── manifests/
-│   │   └── AndroidManifest.xml       # App manifest file
-│   ├── java/com/itu/simplealarm/
-│   │   ├── MainActivity.kt           # Main activity with TimePicker and alarm logic
-│   │   ├── AlarmReceiver.kt          # BroadcastReceiver to handle alarm triggers
-│   ├── res/
-│   │   ├── layout/
-│   │   │   └── activity_main.xml     # Layout file for the main activity
-│   │   ├── values/
-│   │   │   ├── themes.xml            # App themes
-│   │   │   └── strings.xml           # App string resources
-├── build.gradle                      # Project-level Gradle file
-└── README.md                         # Project readme file
